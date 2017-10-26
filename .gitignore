@@ -1,4 +1,5 @@
 __pycache__/
+.DS_Store
 flickr_solved.py
 config.py
 *.py[oc]
