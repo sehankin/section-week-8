@@ -53,6 +53,9 @@ def search_flickr(search_term, what_search_term_is="tags", method="flickr.photos
 
     # more elifs can be added for different sorts of searches
 
+    # Vibhuti (@vkany) suggested writing some tests.
+    # Forgot to add a commit message last time.
+
     unique_ident = params_unique_combination(baseurl,params_diction)
     if unique_ident in CACHE_DICTION:
         return CACHE_DICTION[unique_ident]
